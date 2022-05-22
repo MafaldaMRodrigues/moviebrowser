@@ -15,4 +15,4 @@ const AboutView = () => {
     )
 }
 
-export default AboutView; 
+export default AboutView;
