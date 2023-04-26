@@ -36,6 +36,8 @@ const MovieView = () => {
                                 </div>
                                 <div className="col-md-9">
                                     <h2>{movieDetails.original_title}</h2>
+                                    <p className="lead">{movieDetails.tagline}</p>
+                                    <br></br>
                                     <p className="lead">{movieDetails.overview}</p>
                                     <p className="fw-bold">Release Date:</p>
                                     <p>{movieDetails.release_date}</p>
